@@ -1,0 +1,90 @@
+/* Reset + Better box model */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fb;
+  padding: 30px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1e3a8a;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #2563eb;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* 3 Info Cards */
+.cards-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  display: inline-block;
+  width: 280px;
+  height: 180px;
+  background-color: white;
+  border: 2px solid #cbd5e1;
+  padding: 20px;
+  margin: 15px;
+  vertical-align: top;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #1d4ed8;
+}
+
+.card p {
+  line-height: 1.5;
+}
+
+/* Block demo */
+.block-demo {
+  display: block;
+  width: 250px;
+  background-color: #bfdbfe;
+  border: 2px solid #1d4ed8;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+/* Inline demo */
+.inline-demo {
+  display: inline;
+  background-color: #fecaca;
+  border: 2px solid #dc2626;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Inline-block demo */
+.inline-block-demo {
+  display: inline-block;
+  width: 120px;
+  height: 80px;
+  background-color: #bbf7d0;
+  border: 2px solid #16a34a;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  line-height: 60px;
+}
