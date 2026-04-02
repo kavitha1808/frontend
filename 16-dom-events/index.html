@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Event Demo</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    #box {
+      width: 100px;
+      height: 100px;
+      background: red;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Event Demo</h1>
+
+  <!-- Button -->
+  <button id="alertBtn">Click Me</button>
+
+  <!-- Input -->
+  <br><br>
+  <input type="text" id="inputBox" placeholder="Type something">
+  <p id="output"></p>
+
+  <!-- Hover Box -->
+  <div id="box"></div>
+
+  <!-- Toggle -->
+  <button id="toggleBtn">Toggle Message</button>
+  <p id="message">Hello! I'm here.</p>
+
+  <!-- Form -->
+  <form id="form">
+    <input type="text" placeholder="Enter name" required>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
